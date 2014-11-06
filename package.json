@@ -1,0 +1,38 @@
+{
+  "name": "marathon.node",
+  "description": "Marathon v2 API client",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mattinsler/marathon.node",
+  "author": {
+    "name": "Matt Insler",
+    "email": "matt.insler@gmail.com",
+    "url": "http://www.mattinsler.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattinsler/marathon.node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattinsler/marathon.node/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mattinsler/marathon.node/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "dist/marathon",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "rest.node": "0.4.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0"
+
+  },
+  "keywords": []
+}
